@@ -1,0 +1,73 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color:#ff0000;
+}
+
+.pokemonlist {
+  background-color:#bbbbbb;
+  margin-top: 100px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.pokemonentry {
+  padding:0px;
+  margin:0px;
+  list-style-type:none;
+}
+
+.pokemonentry a {
+  color:#333333;
+  display:block;
+  text-decoration:none;
+  width:100%;
+  font-size:24px;
+  height:50px;
+  background-color:#bbbbbb;
+}
+
+.pokemonentry a:hover {
+  background-color:#999999;
+}
+
+.pokemon {
+  margin-top:100px;
+  background-color:#bbbbbb;
+  width:100%;
+  height:650px;
+  padding:50px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.pokemon ul {
+  list-style-type:none;
+}
+
+.pokestats {
+  padding:30px;
+}
+
+.searchPokemon {
+  margin-bottom: 30px;
+  background-color: #aaaaaa;
+  color:#333333;
+}
+
+::-webkit-input-placeholder {
+   color: #666666;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #666666;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #666666;  
+}
+
+:-ms-input-placeholder {  
+   color: #666666; 
+}

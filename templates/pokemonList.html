@@ -1,0 +1,11 @@
+
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12">
+    <ul class="pokemonlist">
+      <input class="searchPokemon" ng-model="searchPokemon" placeholder="Search"> 
+      <li class="pokemonentry text-center" ng-repeat="pokemon in pokemonlist | filter:searchPokemon | orderBy: 'name'">
+        <a href="#/pokemon/{{pokemon.name}}">{{ pokemon.name }}</a> 
+      </li>
+    </ul>
+  </div>
+</div>

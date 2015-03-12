@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="pokemon text-center">
+    <h1>{{ pokemon.name }}</h1>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <img class="center-block" src="{{image}}" alt="no picture of {{ pokemon.name }} available"/>
+      <p>{{ bio.description }}</p>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 pokestats text-left">
+      <ul>
+        <li>Attack:          {{ pokemon.attack}}</li>
+        <li>Defense:         {{ pokemon.defense}}</li>
+        <li>Special Attack:  {{ pokemon.sp_atk}}</li>
+        <li>Special Defense: {{ pokemon.sp_def}}</li>
+        <li>HP:              {{ pokemon.hp}}</li>
+        <li>Speed:           {{ pokemon.speed}}</li>
+        <li>Weight:          {{ pokemon.weight}}</li>
+        <li>Height:          {{ pokemon.height}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
