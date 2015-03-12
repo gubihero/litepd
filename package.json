@@ -1,0 +1,10 @@
+{
+  "name": "pokedexlite",
+  "version": "1.0.0",
+  "description": "basic app utilizing the restful pokemon api",
+  "author": "James Gubler",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gubihero/litepd"
+  }
+}
