@@ -8,6 +8,6 @@
     "url": "https://github.com/gubihero/litepd"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "http-server"
   }
 }
