@@ -6,5 +6,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gubihero/litepd"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
