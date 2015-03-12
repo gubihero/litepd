@@ -13,7 +13,7 @@ body {
 
 .pokemonentry {
   padding:0px;
-  margin:0px;
+  margin:auto;
   list-style-type:none;
 }
 
@@ -46,9 +46,23 @@ body {
   list-style-type:none;
 }
 
+.pokemon a {
+  text-decoration:none;
+  color:#333333;
+  display:block;
+  font-size:20px;
+}
+
+.pokemon a:hover {
+  text-decoration:none;
+  background-color:#999999;
+  display:block;
+}
+
 .pokestats {
   padding:30px;
 }
+
 
 .searchPokemon {
   margin-bottom: 30px;
